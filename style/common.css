@@ -1,0 +1,104 @@
+:root {
+    --primary: #2c395e;
+    --primary-light: #fff;
+    --primary-dark: #1a2d60;
+    --secondary: #eaba40;
+    --secondary-light: #e8d39d;
+    --secondary-dark: #eead08;
+    --background: #fff;
+    --background-light: #f8f8f8;
+    --background-booking: #fff;
+    --background-secondary: #1a1a1a;
+    --font-base: Arial;
+    --font-size: 16px;
+    --text-color: #565656;
+    --text-color-secondary: #0009;
+    --text-color-disable: #00000061;
+    --autocomplete-suggestions-zindex: 1047;
+    --autocomplete-box-height: 70vh
+}
+
+
+:root {
+    --background: #f8f8f8;
+    --background-secondary: #0d0b0b;
+    --font-size-small: 12px;
+    --font-size-little: 14px;
+    --text-color-secondary: rgba(90, 90, 90, .506)
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f0f0f0 !important
+}
+
+.container-site {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    min-height: 100%
+}
+
+.container-site,
+.son-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    min-height: 100%
+}
+
+.row-container {
+    gap: 1rem;
+    justify-self: center;
+    text-align: center
+}
+
+.row {
+    --bs-gutter-x: none !important
+}
+
+.row-content {
+    gap: 1.5px;
+    justify-content: space-between
+}
+
+.row-content .container-card-room .card-body .container-card-body-header .title {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+@media(max-width:768px) {
+    .row-content {
+        flex-direction: column
+    }
+}
+
+@media(min-width:992px) {
+    .row-content .container-card-room {
+        max-width: 49%
+    }
+}
+
+
+.container-flex {
+    display: flex;
+    flex-direction: column
+}
+
+.container-flex.item-row {
+    flex-direction: row
+}
+
+.container-flex.item-align-center {
+    align-items: center
+}
+
+.container-flex .item-flex-grow {
+    flex-grow: 1
+}

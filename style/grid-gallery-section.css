@@ -1,0 +1,175 @@
+.grid-gallery-section {
+    margin-bottom: 3rem
+}
+
+.grid-gallery-section .card-overlay-middle {
+    background: #0006;
+    box-shadow: 0 0 6px -1px hsla(210, 2%, 78%, .565);
+    width: 100% !important
+}
+
+.grid-gallery-section .card-overlay-middle .text p {
+    height: 20px !important
+}
+
+.grid-gallery-section .title {
+    font-size: 28px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center
+}
+
+.grid-gallery-section .card-overlay-middle .text .title {
+    text-align: inherit
+}
+
+.grid-gallery-section a {
+    display: flex;
+    height: 151px;
+    justify-content: center;
+    margin-bottom: .51rem;
+    width: 300px
+}
+
+.grid-gallery-section a .card-overlay {
+    min-width: 95% !important
+}
+
+.grid-gallery-section .card-overlay {
+    height: 151px;
+    margin-bottom: .51rem;
+    max-width: 90%
+}
+
+.grid-gallery-section .rowContaint {
+    align-items: flex-start;
+    display: flex;
+    gap: 1rem;
+    justify-content: center
+}
+
+@media(max-width:768px) {
+    .grid-gallery-section {
+        margin-bottom: 2rem
+    }
+
+    .grid-gallery-section .container-title .title {
+        display: none
+    }
+
+    .grid-gallery-section .card-overlay {
+        max-width: 100%
+    }
+
+    .grid-gallery-section a {
+        width: 100%
+    }
+
+    .grid-gallery-section .card-overlay-middle .text p {
+        height: 30px
+    }
+}
+
+@media(min-width:992px)and (max-width:1400px) {
+
+    .grid-gallery-section a,
+    .grid-gallery-section a .card-overlay {
+        height: 200px;
+        width: 430px
+    }
+}
+
+@media(min-width:1400px) {
+    .grid-gallery-section .rowContaint {
+        display: flex;
+        justify-content: space-around
+    }
+
+    .grid-gallery-section a {
+        height: 212px !important;
+        width: 300px !important
+    }
+
+    .grid-gallery-section .card-overlay {
+        height: 212px;
+        width: 300px
+    }
+
+    .grid-gallery-section .biggerImage {
+        margin-bottom: 1rem
+    }
+
+    .grid-gallery-section .biggerImage a {
+        height: 341px !important;
+        width: 300px !important
+    }
+
+    .grid-gallery-section .biggerImage .card-overlay {
+        height: 341px;
+        width: 300px
+    }
+
+    .grid-gallery-section .bottomImg {
+        margin-top: -8rem
+    }
+}
+
+.card-overlay {
+    z-index: -1
+}
+
+.card-overlay {
+    background: #0000;
+    height: 264px;
+    max-width: 302px;
+    position: relative;
+    width: 302px
+}
+
+@media(max-width:768px) {
+    .card-overlay {
+        max-width: 260px
+    }
+}
+
+.card-overlay .image {
+    background-size: cover;
+    border-radius: 8px;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%
+}
+
+.card-overlay-middle {
+    background: linear-gradient(0deg, #1f1f1fd6 20%, #6a646400);
+    border-radius: 8px;
+    bottom: 0;
+    display: flex;
+    height: 100%;
+    padding-bottom: 8px;
+    position: absolute
+}
+
+.card-overlay-middle .text {
+    align-self: flex-end;
+    padding-bottom: 5px
+}
+
+.card-overlay-middle .text .title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 10px
+}
+
+.card-overlay-middle .text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 10px
+}
+
+
+
+

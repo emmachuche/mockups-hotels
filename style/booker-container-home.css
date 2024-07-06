@@ -1,0 +1,154 @@
+.container-booking-fluid{
+    background-image: url("https://cdn.majoristravel.com/maldives-666122_1920.jpg");
+}
+
+
+.container-booking-fluid .container-booking-fluid-content .button-input-custom,
+.container-booking-fluid-hotel .container-booking-fluid-content .button-input-custom {
+    background: #f8f8f8 !important;
+    border: none;
+    color: #565656 !important
+}
+
+.container-booking-fluid .container-booking-fluid-content .button-input-custom:hover,
+.container-booking-fluid-hotel .container-booking-fluid-content .button-input-custom:hover {
+    background: #f8f8f8 !important;
+    color: #565656 !important
+}
+
+
+@media only screen and (min-width:768px)and (max-width:992px) {
+    .container-booking-fluid-content .search-box-row {
+        display: flex !important
+    }
+
+    .container-booking-fluid-content .search-box-row .title {
+        padding-left: 25px
+    }
+}
+
+@media only screen and (min-width:768px)and (max-width:992px)and (min-width:576px)and (max-width:992px) {
+    .container-booking-fluid-content .search-box-row .title {
+        display: block
+    }
+}
+
+
+@media(min-width:768px) {
+    .container-booking-fluid-content-rounded .title-in-mobile {
+        padding-top: 0 !important
+    }
+
+    .container-booking-fluid .container-booking-fluid-content-rounded .button-input-custom,
+    .container-booking-fluid-hotel .container-booking-fluid-content .button-input-custom {
+        border-radius: 30px !important
+    }
+}
+
+.container-booking-fluid,
+.container-booking-fluid-hotel {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.container-booking-fluid .search-box,
+.container-booking-fluid-hotel .search-box {
+    border: none
+}
+
+.container-booking-fluid .container-booking-fluid-content,
+.container-booking-fluid-hotel .container-booking-fluid-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 382px;
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+
+.container-booking-fluid .container-booking-fluid-content h1,
+.container-booking-fluid-hotel .container-booking-fluid-content h1 {
+    color: #fff;
+    padding-top: 80px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, .788)
+}
+
+.container-booking-fluid .container-booking-fluid-content .title,
+.container-booking-fluid-hotel .container-booking-fluid-content .title {
+    padding-left: 25px
+}
+
+@media only screen and (min-width:576px)and (max-width:992px) {
+
+    .container-booking-fluid .container-booking-fluid-content .title,
+    .container-booking-fluid-hotel .container-booking-fluid-content .title {
+        display: none
+    }
+}
+
+.container-booking-fluid .container-booking-fluid-content .button-input-custom,
+.container-booking-fluid-hotel .container-booking-fluid-content .button-input-custom {
+    align-items: center;
+    background: #fff;
+    border-color: #2c395e;
+    border-radius: 8px;
+    color: #565656;
+    display: flex;
+    font-size: 14px !important;
+    height: 48px
+}
+
+.container-booking-fluid .container-booking-fluid-content .button-input-custom:hover,
+.container-booking-fluid .container-booking-fluid-content .button-input-custom[aria-describedby*=popover],
+.container-booking-fluid-hotel .container-booking-fluid-content .button-input-custom:hover,
+.container-booking-fluid-hotel .container-booking-fluid-content .button-input-custom[aria-describedby*=popover] {
+    background-color: #fff;
+    border-color: #2c395e
+}
+
+.container-booking-fluid .container-booking-fluid-content .button-input-custom span,
+.container-booking-fluid-hotel .container-booking-fluid-content .button-input-custom span {
+    font-size: 14px
+}
+
+.container-booking-fluid .container-booking-fluid-content .search-box,
+.container-booking-fluid-hotel .container-booking-fluid-content .search-box {
+    background-color: #0000;
+    box-shadow: none
+}
+
+.container-booking-fluid .container-booking-fluid-content .search-box .button-overlay,
+.container-booking-fluid .container-booking-fluid-content .search-box .calendar-button-render-input,
+.container-booking-fluid-hotel .container-booking-fluid-content .search-box .button-overlay,
+.container-booking-fluid-hotel .container-booking-fluid-content .search-box .calendar-button-render-input {
+    background-color: #fff;
+    padding-top: 0 !important
+}
+
+@media(max-width:768px) {
+
+    .container-booking-fluid .container-booking-fluid-content,
+    .container-booking-fluid-hotel .container-booking-fluid-content {
+        padding-top: 130px
+    }
+
+    .container-booking-fluid .container-booking-fluid-content .title,
+    .container-booking-fluid-hotel .container-booking-fluid-content .title {
+        padding-left: 0
+    }
+}
+
+@media only screen and (min-width:576px)and (max-width:992px) {
+    .container-booking-fluid-content {
+        padding-top: 0
+    }
+
+    .container-booking-fluid-content .search-box-row {
+        display: grid !important
+    }
+
+    .container-booking-fluid-content .search-div-rounded {
+        display: flex !important
+    }
+}
