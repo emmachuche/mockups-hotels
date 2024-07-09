@@ -1,0 +1,74 @@
+
+.modal-grid-destination .content-grid {
+    padding: 0 !important
+}
+
+.modal-grid-destination .tile-modal {
+    margin-top: .5rem !important
+}
+
+
+.modal-grid-destination {
+    background: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px #0000000a, 0 8px 16px #00000026;
+    display: grid;
+    margin-top: 15px;
+    max-width: 480px;
+    padding: 10px 20px;
+    place-content: center
+}
+
+.modal-grid-destination .content-grid {
+    padding: 1.5rem
+}
+
+.modal-grid-destination .container-grid-destination {
+    grid-gap: .7rem;
+    align-self: center;
+    display: grid;
+    grid-auto-flow: dense;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    overflow-x: hidden;
+    width: auto;
+    grid-template-columns: repeat(3, [col] auto);
+}
+
+.modal-grid-destination .tile-modal {
+    color: #565656;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: .6rem;
+    margin-left: .3rem;
+    margin-top: 1.7rem
+}
+
+
+.btn-card-grid .img {
+    max-height: 124px;
+    max-width: 124px;
+    object-fit: cover;
+    overflow: hidden
+}
+
+.btn-card-grid .img {
+    min-height: 124px;
+    min-width: 124px
+}
+
+.btn-card-grid .btn-grid {
+    background: #0000;
+    border-color: #0000;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0
+}
+
+.btn-card-grid .btn-grid:hover {
+    border: 1px solid #565656;
+    border: 1px solid var(--text-color)
+}

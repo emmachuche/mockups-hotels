@@ -1,0 +1,280 @@
+.SearchBoxRounded .btn-check:checked+.btn,
+.SearchBoxRounded .btn.active,
+.SearchBoxRounded .btn.show,
+.SearchBoxRounded .btn:first-child:active,
+.SearchBoxRounded :not(.btn-check)+.btn:active {
+    background: #0000;
+    color: #565656 !important
+}
+
+
+.search-box-mobile-rounded {
+    align-items: center;
+    background: #f8f8f8!important;
+    border-color: #2c395e;
+    border-radius: 30px !important;
+    color: #565656;
+    display: flex;
+    font-size: 14px !important;
+    height: 48px;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    .SearchBoxRounded .btn-book-submit {
+        background: #2c395e;
+        color: #fff;
+        height: 100%;
+        width: 100%
+    }
+
+    .rdrCalendarWrapper.rdrDateRangeWrapper.calendar-content-box {
+        border-radius: 1rem;
+        font-size: 13px;
+        padding: 1rem
+    }
+}
+
+
+@media only screen and (min-width:768px)and (max-width:992px) {
+    .SearchBoxRounded .btn-book-submit {
+        display: flex;
+        height: 70%;
+        justify-content: center !important
+    }
+
+    .SearchBoxRounded .btn-book-submit .text {
+        display: none !important
+    }
+
+    .SearchBoxRounded .btn-book-submit .icon {
+        margin-top: 1px
+    }
+}
+
+
+.SearchBoxRounded {
+    display: flex;
+    justify-content: center
+}
+
+.SearchBoxRounded .calendar-content-box {
+    background: green
+}
+
+.SearchBoxRounded .calendar-content-box .rdrCalendarWrapper {
+    font-size: 14px
+}
+
+.SearchBoxRounded .label-error {
+    background: #d32f2f;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 10px
+}
+
+.SearchBoxRounded .label-error svg {
+    color: #fff
+}
+
+.SearchBoxRounded .btn-book-submit {
+    background: #2c395e;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    height: 64%;
+    justify-content: space-between;
+    margin-right: .5rem;
+    width: 50%
+}
+
+.SearchBoxRounded .btn-book-submit .icon,
+.SearchBoxRounded .btn-book-submit .text {
+    align-self: center
+}
+
+.SearchBoxRounded .btn-check:checked+.btn,
+.SearchBoxRounded .btn.active,
+.SearchBoxRounded .btn.show,
+.SearchBoxRounded .btn:first-child:active,
+.SearchBoxRounded :not(.btn-check)+.btn:active {
+    background: #0000 !important;
+    border: none !important
+}
+
+.search-box-rounded .content {
+    color: #565656;
+    font-weight: 700
+}
+
+
+.search-box-rounded .search-box-row {
+    background: #fff;
+    border: 1px solid #9c9090;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.search-box-rounded .search-box-col-rounded button.calendar-button-render-input.w-100.btn.btn-Light {
+    background: none;
+    border: none;
+    height: 60px;
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    min-width: 230px;
+    padding: 0 1rem;
+}
+
+button.calendar-button-render-input.w-100.btn.btn-Light svg {
+    color: #2c395e;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.button-overlay svg {
+    color: #2c395e;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.search-box-rounded .search-box-col-rounded input {
+    align-items: center;
+    background: none;
+    border: none !important;
+    display: flex;
+    position: relative;
+}
+
+.p-inputtext:enabled:hover{
+    border-color: #6366f1;
+}
+
+.p-inputtext {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    color: #495057;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 1rem;
+    padding: .75rem;
+    transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
+}
+
+.input-group-text {
+    background-color: initial;
+    border: 0;
+}
+@media(max-width:768px) {
+    .search-box-rounded .search-box-row {
+        border-radius: 18px
+    }
+
+    .search-box-rounded .search-box-row .search-box-col.btn-div.col {
+        display: grid;
+        max-width: 100% !important
+    }
+
+    .search-box-rounded .search-box-col-rounded {
+        max-width: 100% !important
+    }
+
+    
+
+    
+    .search-box-rounded .search-box-col-rounded .btn-div.container-bh.col {
+        display: flex;
+        justify-content: space-between;
+        max-width: 45% !important;
+        overflow: hidden
+    }
+
+    .search-box-rounded .search-box-col-rounded h1.title.text-center {
+        padding-top: 0 !important
+    }
+
+    .search-box-rounded {
+        width: 80%
+    }
+}
+
+.search-box-rounded .search-box-row .search-box-col.btn-div.col {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 50% !important
+}
+
+.search-box-rounded .search-box-col-rounded {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    max-width: 30% !important;
+    padding: 0
+}
+
+.search-box-rounded .search-box-col-rounded .has-icon .cleaner-btn {
+    background: #2c395e;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-radius: 50% !important;
+    border-radius: 50%
+}
+
+.search-box-rounded .search-box-col-rounded .has-icon .cleaner-btn svg {
+    background: #2c395e !important
+}
+
+
+.search-box-rounded {
+    display: inline;
+    justify-content: center
+}
+
+
+.search-box-rounded .paxes-popover,
+.search-box-rounded .paxes-popover-rounded {
+    min-width: 330px !important
+}
+
+
+.search-box-rounded .autocomplete-box:hover {
+    background-color: #ddd;
+    border-radius: 30px;
+    outline: none
+}
+
+.search-box-rounded .calendar-box:hover,
+.search-box-rounded .rooms-btn:hover {
+    background: #ddd;
+    border-radius: 30px;
+    outline: none
+}
+
+.search-box-rounded .button-overlay {
+    align-items: center;
+    background: none;
+    border: none;
+    display: flex;
+    height: 70px;
+    position: relative
+}
+
+.search-box-rounded .button-overlay .content {
+    text-wrap: nowrap
+}
+
+.modal-fullscreen .modal-header {
+    border: none;
+}
+
+.modal-fullscreen .modal-body {
+    overflow-y: auto;
+}

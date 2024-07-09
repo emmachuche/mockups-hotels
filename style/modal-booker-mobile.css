@@ -1,0 +1,9 @@
+
+.modal-box-image-booking-dark .modal-content {
+    background-color: #343a40;
+    border: none;
+    color: #565656;
+    color: var(--text-color);
+    font-family: Arial;
+    font-family: var(--font-base)
+}
