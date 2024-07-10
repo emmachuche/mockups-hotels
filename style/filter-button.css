@@ -1,0 +1,94 @@
+.button-filter-hotels.button-float-invert, .button-more-hotels.button-float-invert {
+    left: -85px;
+    position: fixed;
+    top: 50%;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.button-filter-hotels, .button-more-hotels {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 200px;
+    z-index: 20;
+}
+
+
+.offcanvas-body {
+    padding-bottom: 60px;
+}
+
+#autocomplete-filter .search-box {
+    align-items: center;
+    position: relative;
+}
+
+.search-box .p-autocomplete {
+    width: 100%;
+}
+
+.p-autocomplete {
+    display: inline-flex;
+    position: relative;
+}
+
+.search-box input {
+    border-color: var(--bs-gray-500);
+    border-image-width: 0;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    height: 48px;
+    min-width: 230px;
+    padding: 10px 35px;
+    width: 100%;
+    border: 1px solid #adacac;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 576px) {
+    .search-box input {
+        min-width: auto;
+    }
+}
+.accordion-item {
+    border: none;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+}
+
+.accordion .accordion-header .accordion-button {
+    background-color: #0000 !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width)* -1) 0 var(--bs-accordion-border-color);
+    color: var(--bs-accordion-active-color);
+}
+
+.card-content .container-stars {
+    color: #2c395e;
+    display: flex;
+    flex-grow: 1;
+}
+
+.offcanvas-bottom {
+    background: var(--bs-offcanvas-bg);
+    border-top: 1px solid var(--bs-border-color);
+    bottom: 0;
+    left: 0;
+    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    position: absolute;
+    right: 0;
+}

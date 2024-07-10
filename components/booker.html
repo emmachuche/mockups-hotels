@@ -11,62 +11,67 @@
 </head>
 
 <body>
-    <div class="SearchBoxRounded d-none d-md-none d-lg-block">
-        <div class="search-box-rounded">
-            <div class="search-box-row search-div-rounded ">
-                <div class="search-box-col search-box-col-rounded autocomplete-box  col">
-                    <div class="has-icon input-group position-relative"><span class="input-group-text"><svg
-                                stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1"
-                                viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+    <div class="container-booking-fluid-content container-booking-fluid-content-rounded container">
+        <div class="SearchBoxRounded d-none d-md-none d-lg-block">
+            <div class="search-box-rounded">
+                <div class="search-box-row search-div-rounded ">
+                    <div class="search-box-col search-box-col-rounded autocomplete-box  col">
+                        <div class="has-icon input-group position-relative"><span class="input-group-text"><svg
+                                    stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1"
+                                    viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8.063c-1.691 0-3.063-1.371-3.063-3.063s1.371-3.063 3.063-3.063 3.063 1.371 3.063 3.063-1.371 3.063-3.063 3.063zM6.063 5c0-1.070 0.867-1.938 1.938-1.938s1.938 0.867 1.938 1.938c0 1.070-0.867 1.938-1.938 1.938s-1.938-0.867-1.938-1.938z">
+                                    </path>
+                                </svg></span><span id="autocomplete" class="p-autocomplete p-component p-inputwrapper"
+                                autocomplete="off"><input id="input-start" type="text" name="auto" role="combobox"
+                                    aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false"
+                                    class="p-inputtext p-component p-autocomplete-input" autocomplete="off"
+                                    placeholder="Destino" value=""></span><button type="button" id="btn-clear"
+                                class="cleaner-btn d-none btn btn-primary">X</button></div>
+                        <div class="alert-text "></div>
+                    </div>
+                    <div class="search-box-col search-box-col-rounded calendar-box  col"><button type="button"
+                            name="calendar" class="calendar-button-render-input w-100 btn btn-Light"><svg
+                                stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8.063c-1.691 0-3.063-1.371-3.063-3.063s1.371-3.063 3.063-3.063 3.063 1.371 3.063 3.063-1.371 3.063-3.063 3.063zM6.063 5c0-1.070 0.867-1.938 1.938-1.938s1.938 0.867 1.938 1.938c0 1.070-0.867 1.938-1.938 1.938s-1.938-0.867-1.938-1.938z">
-                                </path>
-                            </svg></span><span id="autocomplete" class="p-autocomplete p-component p-inputwrapper"
-                            autocomplete="off"><input id="input-start" type="text" name="auto" role="combobox"
-                                aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false"
-                                class="p-inputtext p-component p-autocomplete-input" autocomplete="off"
-                                placeholder="Destino" value=""></span><button type="button" id="btn-clear"
-                            class="cleaner-btn d-none btn btn-primary">X</button></div>
-                    <div class="alert-text "></div>
-                </div>
-                <div class="search-box-col search-box-col-rounded calendar-box  col"><button type="button"
-                        name="calendar" class="calendar-button-render-input w-100 btn btn-Light"><svg
-                            stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
-                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z">
-                            </path>
-                        </svg>
-                        <div class="content">06 jul 2024 - 08 jul 2024 </div>
-                    </button>
-                    <div class="container-modal"></div>
-                </div>
-                <div class="search-box-col  btn-div container-btn-search rooms-btn  col">
-                    <div class="container-modal"></div>
-                    <div class="input-grid" style="position: relative;"><button type="button" name="paxes"
-                            id="input-paxs" class="button-overlay input-paxs btn btn-outline-light"
-                            style="position: relative; padding-right: 30px;"><svg stroke="currentColor"
-                                fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z">
+                                    d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z">
                                 </path>
                             </svg>
-                            <div class="content"><span class="label"></span>1 hab, 2
-                                personas
-                            </div>
-                        </button></div><button type="button"
-                        class="btn-book-submit btn-book-submit-rounded btn btn-primary"><span class="text">
-                            Buscar</span><span class="icon"> <svg stroke="currentColor" fill="currentColor"
-                                stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z">
-                                </path>
-                            </svg> </span></button>
+                            <div class="content">06 jul 2024 - 08 jul 2024 </div>
+                        </button>
+                        <div class="container-modal"></div>
+                    </div>
+                    <div class="search-box-col  btn-div container-btn-search rooms-btn  col">
+                        <div class="container-modal"></div>
+                        <div class="input-grid" style="position: relative;"><button type="button" name="paxes"
+                                id="input-paxs" class="button-overlay input-paxs btn btn-outline-light"
+                                style="position: relative; padding-right: 30px;"><svg stroke="currentColor"
+                                    fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z">
+                                    </path>
+                                </svg>
+                                <div class="content"><span class="label"></span>1 hab, 2
+                                    personas
+                                </div>
+                            </button></div><button type="button"
+                            class="btn-book-submit btn-book-submit-rounded btn btn-primary"><span class="text">
+                                Buscar</span><span class="icon"> <svg stroke="currentColor" fill="currentColor"
+                                    stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z">
+                                    </path>
+                                </svg> </span></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <div class="d-block d-md-block d-lg-none">
         <button type="button" class="button-input-custom btn btn-primary search-box-mobile-rounded w-100">

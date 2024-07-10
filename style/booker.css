@@ -106,7 +106,8 @@
 
 .search-box-rounded .content {
     color: #565656;
-    font-weight: 700
+    font-weight: 700;
+    font-size: 14px;
 }
 
 
@@ -149,6 +150,8 @@ button.calendar-button-render-input.w-100.btn.btn-Light svg {
     border: none !important;
     display: flex;
     position: relative;
+    border-color: none !important;
+    outline: 0  
 }
 
 .p-inputtext:enabled:hover{
@@ -277,4 +280,147 @@ button.calendar-button-render-input.w-100.btn.btn-Light svg {
 
 .modal-fullscreen .modal-body {
     overflow-y: auto;
+}
+
+.button-overlay .content {
+    text-wrap: nowrap;
+    display: grid;
+    font-size: 14px;
+    justify-content: start
+}
+
+
+
+.search-box .calendar-button-render-input {
+    min-width: 230px
+}
+
+.search-box .calendar-button-render-input .content {
+    display: grid;
+    font-size: 14px;
+    justify-content: start
+}
+
+.search-box .calendar-button-render-input .label {
+    color: #9c9090;
+    font-size: 12px;
+    margin-top: .7rem;
+    padding: 5px;
+    text-align: left;
+    text-align: initial
+}
+
+.search-box input {
+    min-width: 200px
+}
+
+.search-box .cleaner-btn {
+    border: 0
+}
+
+.search-box .cleaner-btn,
+.search-box .cleaner-btn-doble {
+    align-items: center;
+    background: #0000 !important;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    padding: 0 5px;
+    position: absolute !important;
+    right: 10px !important;
+    top: 14px
+}
+
+.search-box .cleaner-btn-doble:active,
+.search-box .cleaner-btn:active {
+    border-color: #1a2d60 !important
+}
+
+.search-box .search-room-button-render-input {
+    max-width: 20px;
+    min-width: 120px
+}
+
+.search-box .btn-book-submit {
+    color: #fff;
+    justify-content: center;
+    max-width: 140px;
+    min-width: 100%
+}
+
+.search-box .alert-text {
+    color: #d32f2f;
+    font-size: 14px;
+    height: 10px;
+    padding-top: 3px;
+    position: relative
+}
+
+.search-box .alert-text:empty {
+    display: none
+}
+
+.search-box .label-error {
+    background: #d32f2f;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 10px
+}
+
+.search-box .label-error svg {
+    color: #fff
+}
+
+.has-icon input,
+.search-box button {
+    color: #565656;
+    font-weight: 700
+}
+
+
+.mzp-autocomplete {
+    position: relative
+}
+
+.mzp-autocomplete .input-group-text {
+    background-color: initial;
+    border: 0
+}
+
+.mzp-autocomplete .autocomplete-btn-icon {
+    background: blue
+}
+
+.mzp-autocomplete input {
+    border-color: var(--bs-gray-500);
+    border-image-width: 0;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    height: 48px;
+    min-width: 230px;
+    padding: 10px 35px;
+    width: 100%
+}
+
+.p-autocomplete {
+    width: 100%
+}
+
+
+.has-icon .input-group-text {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+.has-icon .input-group-text svg {
+    font-size: 1.25rem
+}
+
+.has-icon input {
+    padding-left: 40px
 }

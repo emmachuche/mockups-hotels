@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/filter-button.css">
+    <link rel="stylesheet" href="../style/common.css">
+</head>
+
+<body>
+    <button type="button" class="button-filter-hotels button-float-invert  btn btn-primary" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> FILTROS</button>
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <div class="offcanvas-title h5">FILTROS</div><button type="button" class="btn-close"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="input">
+                <form id="autocomplete-filter" class="">
+                    <div style="margin-bottom: 1.25rem;">
+                        <p>Buscar por:</p>
+                        <div class="search-box input-group"><span id="autocomplete"
+                                class="p-autocomplete p-component p-inputwrapper"><input type="text" role="combobox"
+                                    aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false"
+                                    class="p-inputtext p-component p-autocomplete-input" autocomplete="off"
+                                    placeholder="Nombre del hotel" value=""></span><button type="button" id="btn-clear"
+                                class="btn-clear d-none btn btn-light">X</button></div>
+                    </div>
+                </form>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button type="button" aria-expanded="true" class="accordion-button">
+                            Categoría del hotel </button></h2>
+                    <div>
+                        <div class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <div class="card-content">
+                                    <div class="container-flex">
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox" id="CATEGORIES_5_ESTRELLAS"
+                                                    class="form-check-input"><label title=""
+                                                    for="CATEGORIES_5_ESTRELLAS" class="form-check-label">
+                                                    <div class="container-stars" qui="">
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox" id="CATEGORIES_4_ESTRELLAS"
+                                                    class="form-check-input"><label title=""
+                                                    for="CATEGORIES_4_ESTRELLAS" class="form-check-label">
+                                                    <div class="container-stars" qui="">
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox" id="CATEGORIES_3_ESTRELLAS"
+                                                    class="form-check-input"><label title=""
+                                                    for="CATEGORIES_3_ESTRELLAS" class="form-check-label">
+                                                    <div class="container-stars" qui="">
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox" id="CATEGORIES_2_ESTRELLAS"
+                                                    class="form-check-input"><label title=""
+                                                    for="CATEGORIES_2_ESTRELLAS" class="form-check-label">
+                                                    <div class="container-stars" qui="">
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="box-star" qui="con box-category "><svg
+                                                                stroke="currentColor" fill="currentColor"
+                                                                stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox"
+                                                    id="CATEGORIES_5_ESTRELLAS_LUJO" class="form-check-input"><label
+                                                    title="" for="CATEGORIES_5_ESTRELLAS_LUJO" class="form-check-label">
+                                                    <div class="container-categories" qui=""><span>5 Estrellas
+                                                            Lujo</span></div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox" id="CATEGORIES_HOSTAL_1*"
+                                                    class="form-check-input"><label title="" for="CATEGORIES_HOSTAL_1*"
+                                                    class="form-check-label">
+                                                    <div class="container-categories" qui=""><span>Hostal 1*</span>
+                                                    </div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox" id="CATEGORIES_RESORT"
+                                                    class="form-check-input"><label title="" for="CATEGORIES_RESORT"
+                                                    class="form-check-label">
+                                                    <div class="container-categories" qui=""><span>Resort</span></div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox" id="CATEGORIES_BOUTIQUE"
+                                                    class="form-check-input"><label title="" for="CATEGORIES_BOUTIQUE"
+                                                    class="form-check-label">
+                                                    <div class="container-categories" qui=""><span>Boutique</span></div>
+                                                </label></div>
+                                        </div>
+                                        <div class="container-drawer">
+                                            <div class="form-check"><input type="checkbox"
+                                                    id="CATEGORIES_SIN_CATEGORÍA_OFICIAL"
+                                                    class="form-check-input"><label title=""
+                                                    for="CATEGORIES_SIN_CATEGORÍA_OFICIAL" class="form-check-label">
+                                                    <div class="container-categories" qui=""><span>Sin Categoría
+                                                            Oficial</span></div>
+                                                </label></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="acordion accordion">
+                <div class="border-0 accordion-item">
+                    <h2 class="accordion-header"><button type="button" aria-expanded="true" class="accordion-button">
+                            Tipo de propiedad </button></h2>
+                    <div>
+                        <div class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="PROPERTY_BEDANDBREAKFAST" class="form-check-input"><label title=""
+                                        for="PROPERTY_BEDANDBREAKFAST" class="form-check-label">Bedandbreakfast</label>
+                                </div>
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="PROPERTY_BOUTIQUE" class="form-check-input"><label title=""
+                                        for="PROPERTY_BOUTIQUE" class="form-check-label">Boutique</label></div>
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="PROPERTY_HOSTEL" class="form-check-input"><label title=""
+                                        for="PROPERTY_HOSTEL" class="form-check-label">Hostel</label></div>
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="PROPERTY_HOTEL" class="form-check-input"><label title=""
+                                        for="PROPERTY_HOTEL" class="form-check-label">Hotel</label></div>
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="PROPERTY_RESORT" class="form-check-input"><label title=""
+                                        for="PROPERTY_RESORT" class="form-check-label">Resort</label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="acordion accordion">
+                <div class="border-0 accordion-item">
+                    <h2 class="accordion-header"><button type="button" aria-expanded="true" class="accordion-button">
+                            Planes de alimentos </button></h2>
+                    <div>
+                        <div class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="MEALPLANS_ALL_INCLUSIVE" class="form-check-input"><label title=""
+                                        for="MEALPLANS_ALL_INCLUSIVE" class="form-check-label">All Inclusive</label>
+                                </div>
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="MEALPLANS_ALOJAMIENTO_Y_DESAYUNO" class="form-check-input"><label title=""
+                                        for="MEALPLANS_ALOJAMIENTO_Y_DESAYUNO" class="form-check-label">Alojamiento Y
+                                        Desayuno</label></div>
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="MEALPLANS_BREAKFAST" class="form-check-input"><label title=""
+                                        for="MEALPLANS_BREAKFAST" class="form-check-label">Breakfast</label></div>
+                                <div class="form-check" style="display: block;"><input type="checkbox"
+                                        id="MEALPLANS_BUFFET_BREAKFAST" class="form-check-input"><label title=""
+                                        for="MEALPLANS_BUFFET_BREAKFAST" class="form-check-label">Buffet
+                                        Breakfast</label></div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_DESAYUNO_AMERICANO" class="form-check-input"><label title=""
+                                        for="MEALPLANS_DESAYUNO_AMERICANO" class="form-check-label">Desayuno
+                                        Americano</label></div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_DESAYUNO_BUFFET" class="form-check-input"><label title=""
+                                        for="MEALPLANS_DESAYUNO_BUFFET" class="form-check-label">Desayuno Buffet</label>
+                                </div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_DESAYUNO_BUFFET_INCLUIDO" class="form-check-input"><label title=""
+                                        for="MEALPLANS_DESAYUNO_BUFFET_INCLUIDO" class="form-check-label">Desayuno
+                                        Buffet Incluido</label></div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_DESAYUNO_INCLUIDO" class="form-check-input"><label title=""
+                                        for="MEALPLANS_DESAYUNO_INCLUIDO" class="form-check-label">Desayuno
+                                        Incluido</label></div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_ROOM_ONLY" class="form-check-input"><label title=""
+                                        for="MEALPLANS_ROOM_ONLY" class="form-check-label">Room Only</label></div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_SOLO_HABITACIÓN" class="form-check-input"><label title=""
+                                        for="MEALPLANS_SOLO_HABITACIÓN" class="form-check-label">Solo Habitación</label>
+                                </div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_SÓLO_HABITACIÓN" class="form-check-input"><label title=""
+                                        for="MEALPLANS_SÓLO_HABITACIÓN" class="form-check-label">Sólo Habitación</label>
+                                </div>
+                                <div class="form-check" style="display: none;"><input type="checkbox"
+                                        id="MEALPLANS_TODO_INCLUIDO" class="form-check-input"><label title=""
+                                        for="MEALPLANS_TODO_INCLUIDO" class="form-check-label">Todo Incluido</label>
+                                </div><button type="button" class="btn-filter btn btn-text">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-bottom"><button type="button" class="clear-filters btn btn-link"><svg
+                    stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em"
+                    width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z">
+                    </path>
+                    <path
+                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z">
+                    </path>
+                </svg> Borrar Filtros</button></div>
+    </div>
+</body>
+
+</html>
