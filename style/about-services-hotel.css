@@ -1,0 +1,121 @@
+@media(max-width:576px) {
+    .container-information-service-bg {
+        border-radius: 8px
+    }
+
+    .container-information-service-bg h5 {
+        font-size: 18px
+    }
+}
+
+.box-hashotel-column-list {
+    display: grid
+}
+
+.box-hashotel-column-list .box-hashotel-item {
+    display: inline-grid
+}
+
+.box-hashotel-column-list .container-text-icon {
+    display: flex;
+    justify-content: flex-start
+}
+
+.box-hashotel-column-list .box-icon-container {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr)
+}
+
+.text-subtitle {
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.container-text-icon .color-primary {
+    color: #2c395e;
+}
+
+.container-text-icon .container-icon {
+    display: inline-flex;
+    padding-right: 5px;
+}
+
+.hotel-detail .container-text-icon .container-text {
+    font-size: 16px;
+    display: inline-flex;
+}
+
+.btn-more-details {
+    color: #2c395e;
+    font-size: 14px;
+    text-decoration: none
+}
+
+.btn-more-details:active {
+    background-color: #0000
+}
+
+.container-information-service-bg {
+    border-radius: 8px;
+    box-shadow: 0 0 6px -1px hsla(210, 2%, 78%, .565)
+}
+
+.container-information-service-bg .details-container-grid {
+    display: grid;
+    grid-auto-rows: 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    overflow: hidden
+}
+
+.container-information-service-bg .details-container-grid.expand {
+    grid-auto-rows: auto
+}
+
+.container-information-service-bg .details-container-grid .box-hashotel-item:nth-child(3n+1) {
+    order: 1
+}
+
+.container-information-service-bg .details-container-grid .box-hashotel-item:nth-child(3n+2) {
+    order: 2
+}
+
+.container-information-service-bg .details-container-grid .box-hashotel-item:nth-child(3n) {
+    order: 3
+}
+
+.box-tittle-column-state-about-hotel {
+    height: 125px;
+    transition-delay: 2s, 3s;
+    transition-duration: 3s, 2s;
+}
+
+
+.details-title-description {
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top: 24px
+}
+
+
+.box-info-hide {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 1s
+}
+
+.box-info-hide.box-info-show,
+.box-info-show {
+    -webkit-line-clamp: none
+}
+
+
+@media(max-width:768px) {
+    .box-tittle-column-state-about-hotel .box-info-hide {
+        -webkit-line-clamp: 2
+    }
+}

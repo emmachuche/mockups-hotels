@@ -1,0 +1,72 @@
+
+.collage {
+    display: flex;
+    flex-direction: row;
+    height: 58vh;
+    width: 100%
+}
+
+.collage .container-first {
+    display: flex;
+    width: 40%
+}
+
+.collage .container-duo {
+    padding-left: 3.5px;
+    width: 30%
+}
+
+.collage .container-duo .container-top {
+    display: flex;
+    height: 50%;
+    padding-bottom: 3.5px;
+    width: 100%
+}
+
+.collage .container-duo .container-botom {
+    display: flex;
+    height: 50%;
+    width: 100%
+}
+
+.collage img {
+    object-fit: cover
+}
+
+@media(max-width:576px) {
+    .collage {
+        flex-direction: column;
+        height: auto
+    }
+
+    .collage,
+    .collage .container-duo,
+    .collage .container-first {
+        width: 100%
+    }
+}
+
+
+
+.container-number-img {
+    background-color: rgba(0, 0, 0, .502);
+    border-radius: 8px;
+    bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 15px;
+    position: absolute;
+    right: 15px;
+    z-index: 2
+}
+
+.container-number-img svg {
+    color: #fff
+}
+
+
+@media (max-width: 576px) {
+    .collage, .collage .container-duo, .collage .container-first {
+        width: 100%;
+    }
+}
