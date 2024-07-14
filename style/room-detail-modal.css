@@ -1,0 +1,82 @@
+@media (min-width: 768px) {
+    .order-md-last {
+        order: 6 !important;
+    }
+}
+
+
+
+.container-info-room .carousel-inner {
+    height: 100%
+}
+
+.container-info-room .contant-btn {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%
+}
+
+.container-info-room .box-service-rate {
+    align-items: baseline !important
+}
+
+.container-info-room .info-room-slide-img {
+    height: 400px
+}
+
+.container-info-room .title {
+    font-size: 24px;
+    margin-bottom: 24px
+}
+
+.container-info-room .subtitle {
+    font-size: 22px
+}
+
+.container-info-room .btn-reservation,
+.container-info-room button {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: .2s
+}
+
+.container-info-room .btn-reservation:hover,
+.container-info-room button:hover {
+    color: #fff
+}
+
+@media(max-width:768px) {
+    .container-info-room {
+        margin-bottom: 130px
+    }
+
+    .container-info-room .contant-btn {
+        border-top: 1px solid #fff;
+        bottom: 0;
+        left: 0;
+        margin-left: 0;
+        position: fixed;
+        width: 100%
+    }
+
+    .container-info-room .info-room-slide-img {
+        height: 250px
+    }
+
+    .container-info-room .title {
+        font-size: 18px
+    }
+
+    .container-info-room .subtitle {
+        font-size: 20px
+    }
+
+    .container-info-room .btn-reservation,
+    .container-info-room button {
+        font-size: 14px
+    }
+}

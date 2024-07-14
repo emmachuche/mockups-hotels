@@ -102,3 +102,38 @@ body {
 .container-flex .item-flex-grow {
     flex-grow: 1
 }
+
+body * ::-webkit-scrollbar-thumb,
+html * ::-webkit-scrollbar-thumb {
+    background: #2c395e !important
+}
+body * ::-webkit-scrollbar-thumb,
+html * ::-webkit-scrollbar-thumb {
+    background: #1a2d60
+}
+
+
+body * ::-webkit-scrollbar,
+html * ::-webkit-scrollbar {
+    border-radius: 6px;
+    height: 8px;
+    width: 8px
+}
+
+body * ::-webkit-scrollbar-thumb,
+html * ::-webkit-scrollbar-thumb {
+    background: #2c395e;
+    border-radius: 6px
+}
+
+.p-breadcrumb::-webkit-scrollbar {
+    display: none
+}
+
+.p-tabmenu::-webkit-scrollbar {
+    display: none
+}
+
+.p-tabview-nav-content::-webkit-scrollbar {
+    display: none
+}

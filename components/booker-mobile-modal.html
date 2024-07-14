@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/booker-mobile-modal.css">
+    <link rel="stylesheet" href="../style/booker.css">
+    <link rel="stylesheet" href="../style/booker-most-region.css">
+    <link rel="stylesheet" href="../style/booker-result-list.css">
+    <link rel="stylesheet" href="../style/common.css">
+</head>
+
+<body>
+    <div role="dialog" aria-modal="true" class="fade wrapper-collage modal show" tabindex="-1"
+        style="display: block; padding-right: 8px;">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="paxes-modal">
+                        <div class="autocomplete-list" id="autocomplete-list">
+                            <div class="input-group">
+                                <input autocomplete="off" placeholder="Destino"
+                                    inputid="input-start" type="text" id="input-start" class="form-control" value="">
+                                <button type="button" id="btn-clear" class="cleaner-btn d-none btn btn-primary"
+                                    style="z-index: 5;">X</button>
+                                <span class="label-icon"></span>
+                            </div>
+                            <div id="button-div">
+                                <div class="mobile">
+                                    <div class="content-grid">
+                                        <div class="container-grid-destination">
+                                            <div class="btn-card-grid "><button type="button"
+                                                    class="btn-grid btn btn-light"><img class="img"
+                                                        src="https://cdn.majoristravel.com/branding/autocompleteGrid/cancun-gird.jpg"></button>
+                                                <div class="text">Cancún</div>
+                                            </div>
+                                            <div class="btn-card-grid "><button type="button"
+                                                    class="btn-grid btn btn-light"><img class="img"
+                                                        src="https://cdn.majoristravel.com/branding/autocompleteGrid/acapulco-grid.jpg"></button>
+                                                <div class="text">Acapulco</div>
+                                            </div>
+                                            <div class="btn-card-grid "><button type="button"
+                                                    class="btn-grid btn btn-light"><img class="img"
+                                                        src="https://cdn.majoristravel.com/branding/autocompleteGrid/los-cabos-grid.jpg"></button>
+                                                <div class="text">Los Cabos</div>
+                                            </div>
+                                            <div class="btn-card-grid "><button type="button"
+                                                    class="btn-grid btn btn-light"><img class="img"
+                                                        src="https://cdn.majoristravel.com/branding/autocompleteGrid/mazatlan-grid.jpg"></button>
+                                                <div class="text">Mazatlan</div>
+                                            </div>
+                                            <div class="btn-card-grid "><button type="button"
+                                                    class="btn-grid btn btn-light"><img class="img"
+                                                        src="https://cdn.majoristravel.com/branding/autocompleteGrid/riviera-aya-grid.jpg"></button>
+                                                <div class="text">Riviera Maya</div>
+                                            </div>
+                                            <div class="btn-card-grid "><button type="button"
+                                                    class="btn-grid btn btn-light"><img class="img"
+                                                        src="https://cdn.majoristravel.com/branding/autocompleteGrid/puerto-vallarta-grid.jpg"></button>
+                                                <div class="text">Puerto Vallarta</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+<!-- resultados en lista -->
+
+<ul class="suggestions" role="listbox" id="autocomplete_list">
+    <li role="option" aria-selected="false" class="p-autocomplete-item">
+        <div class="country-item d-flex">
+            <div class="me-2">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                    version="1.1" viewBox="0 0 16 16" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8.063c-1.691 0-3.063-1.371-3.063-3.063s1.371-3.063 3.063-3.063 3.063 1.371 3.063 3.063-1.371 3.063-3.063 3.063zM6.063 5c0-1.070 0.867-1.938 1.938-1.938s1.938 0.867 1.938 1.938c0 1.070-0.867 1.938-1.938 1.938s-1.938-0.867-1.938-1.938z">
+                    </path>
+                </svg>
+            </div>
+            <div>Cancún, Quintana Roo</div>
+        </div>
+    </li>
+    <li role="option" aria-selected="false" class="p-autocomplete-item">
+        <div class="country-item d-flex">
+            <div class="me-2">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                    version="1.1" viewBox="0 0 16 16" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8.063c-1.691 0-3.063-1.371-3.063-3.063s1.371-3.063 3.063-3.063 3.063 1.371 3.063 3.063-1.371 3.063-3.063 3.063zM6.063 5c0-1.070 0.867-1.938 1.938-1.938s1.938 0.867 1.938 1.938c0 1.070-0.867 1.938-1.938 1.938s-1.938-0.867-1.938-1.938z">
+                    </path>
+                </svg>
+            </div>
+            <div>Cancún, Quintana Roo</div>
+        </div>
+    </li>
+    <li role="option" aria-selected="false" class="p-autocomplete-item">
+        <div class="country-item d-flex">
+            <div class="me-2">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                    viewBox="0 0 576 512" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M560 64c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16H16C7.16 0 0 7.16 0 16v32c0 8.84 7.16 16 16 16h15.98v384H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h240v-80c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v80h240c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16h-16V64h16zm-304 44.8c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4zm0 96c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4zm-128-96c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4zM179.2 256h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4c0 6.4-6.4 12.8-12.8 12.8zM192 384c0-53.02 42.98-96 96-96s96 42.98 96 96H192zm256-140.8c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-96c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4z">
+                    </path>
+                </svg>
+            </div>
+            <div>Hyatt Ziva Riviera Cancun</div>
+        </div>
+    </li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

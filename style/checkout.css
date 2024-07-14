@@ -1,0 +1,248 @@
+
+.container-aux-checkout h2 {
+    font-size: 24px
+}
+
+.container-aux-checkout p {
+    margin-bottom: .5rem
+}
+
+.container-aux-checkout a {
+    text-decoration: none
+}
+
+.container-aux-checkout .title {
+    font-size: 24px
+}
+
+.container-aux-checkout .title-transfer {
+    font-size: 18px;
+    margin-bottom: .5rem
+}
+
+.container-aux-checkout .title-transfer-icon {
+    font-size: 16px
+}
+
+.container-aux-checkout .title-transfer-icon svg {
+    color: #2c395e;
+    font-size: 18px;
+    padding-right: 5px
+}
+
+.container-aux-checkout .title-service-general {
+    font-size: 24px;
+    padding-left: 0;
+    padding-right: 30px
+}
+
+.container-aux-checkout .box-summary .box-title .box-title-content .box-title-content-title {
+    font-size: 24px
+}
+
+.container-aux-checkout .box-summary .box-title .box-service-descriptions {
+    justify-content: space-between
+}
+
+.checkout-summary-form {
+    order: 1
+}
+
+
+@media(min-width:576px)and (max-width:768px) {
+    .checkout-summary-ticket {
+        order: 1
+    }
+
+    .checkout-summary-form {
+        order: 2
+    }
+}
+
+@media(min-width:768px)and (max-width:992px) {
+    .checkout-summary-ticket {
+        order: 1
+    }
+
+    .checkout-summary-form {
+        order: 2
+    }
+}
+
+@media(min-width:992px)and (max-width:1400px) {
+    .checkout-summary-ticket {
+        order: 2;
+        padding-left: 25px
+    }
+
+    .checkout-summary-form {
+        order: 1
+    }
+}
+
+@media(min-width:1400px) {
+    .checkout-summary-ticket {
+        order: 2;
+        padding-left: 25px
+    }
+
+    .checkout-summary-form {
+        order: 1
+    }
+}
+
+.box-form {
+    background-color: #fff;
+    border-color: #565656;
+    border-radius: 10px;
+    box-shadow: 0 0 6px -1px hsla(210, 2%, 78%, .565);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%
+}
+
+.box-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+
+.box-form-item {
+    width: 49%
+}
+
+.box-form-item-full {
+    width: 100%
+}
+
+.card-content .box-star {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.card-content .container-stars {
+    color: #2c395e;
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.card-content .container-flex-text {
+    align-items: baseline;
+    color: #9c9090;
+    display: contents;
+}
+
+.card-content .container-flex-address .container-address {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-content .box-title .box-service-descriptions p {
+    font-size: 14px;
+}
+
+.checkout-rate-details-comments {
+    max-height: 200px;
+    overflow-y: auto
+}
+
+
+
+.box-summary-div,
+.box-summary-div-hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+@media(max-width:1200px) {
+    .box-summary-div-hotel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+}
+
+@media(max-width:576px) {
+    .box-form {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .box-form-container {
+        flex-direction: column
+    }
+
+    .box-form-container .box-form-item {
+        margin-bottom: 15px;
+        width: 100%
+    }
+
+    .box-summary {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .box-summary-div-hotel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+}
+
+.box-summary {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 6px -1px hsla(210, 2%, 78%, .565);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 2rem;
+    width: 100%
+}
+
+.form-check-input:focus,
+.p-inputtext:enabled:focus {
+    box-shadow: none
+}
+
+.checkout-summary-ticket {
+    order: 2
+}
+
+
+@media(max-width:576px) {
+
+    .container-aux-checkout .title,
+    .container-aux-checkout h2 {
+        font-size: 20px
+    }
+
+    .container-aux-checkout .title-service-general {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .container-aux-checkout .box-summary .box-title .box-title-content .box-title-content-title {
+        font-size: 20px
+    }
+
+    .checkout-summary-form {
+        order: 2 !important
+    }
+
+    .checkout-summary-ticket {
+        order: 1
+    }
+
+    .checkout-spt-btn {
+        justify-content: center;
+        width: 100%
+    }
+}

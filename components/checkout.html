@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/checkout.css">
+    <link rel="stylesheet" href="../style/common.css">
+</head>
+
+<body>
+    <div class="mb-5 container-aux-checkout container">
+        <div class="row">
+            <div class="mt-4 col">
+                <h1 class="title-service-general">¡Falta poco! Completa tus datos y finaliza tu compra</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-8 mt-4 checkout-summary-form col">
+                <form >
+                    <div class="mb-4" data-index="0" style="display: block;">
+                        <div class="box-form mb-4 box-holder">
+                            <h2>¿Quién es el titular de la reserva?</h2>
+                            <p>Será responsable de la reserva de actividades, hacer el registro de llegada y salida en
+                                el hotel.</p>
+                            <div class="box-form-container">
+                                <div class="box-form-item"><label class="form-label"
+                                        for="form-name-0">Nombre</label><input
+                                        aria-describedby="form-name-0-1" name="name" required=""
+                                        id="form-name-0" class="form-control" value=""><small
+                                        id="form-name-0-2" class="form-text text-muted"></small></div>
+                                <div class="box-form-item"><label class="form-label"
+                                        for="form-last-name-0">Apellidos</label><input
+                                        aria-describedby="form-last-name-0-1" name="lastName" required=""
+                                        id="form-last-name-0" class="form-control" value=""><small
+                                        id="form-last-name-0-2" class="form-text text-muted"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-form mb-4 box-notifications">
+                            <h2>¿A dónde enviamos la confirmación y notificaciones de tu reserva? </h2>
+                            <p>El correo electrónico y teléfono son fundamentales para que gestiones tu reserva y
+                                recibas información importante sobre tu viaje. </p>
+                            <div class="box-form-container box-contact">
+                                <div class="box-form-item">
+                                    <div class="d-block"><label class="form-label" for="phone-0">Teléfono</label>
+                                        <div class="input-group"><select variant="outline-secondary"
+                                                name="lada" class="select-lada form-select" id="input-group-dropdown-1">
+                                                <option value="52-MX">MX +52</option>
+                                                <option value="1-US">US +1</option>
+                                                <option value="1-CA">CA +1</option>
+                                                <option value="34-ES">ES +34</option>
+                                                <option value="44-UK">UK +44</option>
+                                            </select><input name="phone" autocomplete="off" type="tel" id="phone-0"
+                                                class="form-control" value=""><small id="ksk2"
+                                                class="form-text text-muted"></small></div>
+                                    </div>
+                                </div>
+                                <div class="box-form-item"><label class="form-label" for="emails-0">Correo
+                                        electrónico</label><input aria-describedby="emails-0-3"
+                                        name="email" required="" type="email" id="emails-0" class="form-control"
+                                        value=""><small id="emails-0-1"
+                                        class="form-text text-muted"></small></div>
+                            </div>
+                        </div>
+                        <div class="box-form box-special-requests">
+                            <div class="box-form-container">
+                                <div class="box-form-item-full"><label class="form-label" for="specialR">Solicitudes
+                                        especiales (Opcional)</label><label class="form-label" for="specialR">Las
+                                        solicitudes especiales o de accesibilidad no están garantizadas. Si no recibe
+                                        noticias de la propiedad, es posible que desee comunicarse con ellos
+                                        directamente para confirmar. La propiedad puede cobrar una tarifa por ciertas
+                                        solicitudes especiales.</label><textarea rows="3"
+                                        aria-describedby="[object Object]" maxlength="255" qa="textarea specialRequests"
+                                        name="specialRequests" id="specialR" class="form-control"></textarea><small
+                                        id="[object Object]" class="form-text text-muted"></small>
+                                    <div style="text-align: right; margin-top: 5px;"><label class="form-label"
+                                            style="margin: 0px;">0/255</label></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 check-box-terms">
+                        <div class="form-check"><input qa="ch CheckBoxTerms" class="form-check-input"
+                                id="terms-checkbox" type="checkbox"><label class="form-check-label"
+                                for="flexCheckDefault">He leído y acepto las condiciones de compra,<a target="_blank"
+                                    href="https://www.e.com/terms-and-conditions"> política de privacidad</a> y <a
+                                    target="_blank" href="https://www.e.com/terms-and-conditions">política de cambios y
+                                    cancelaciones.</a></label></div>
+                    </div>
+                    <div class="col-12 mt-4"><button type="submit" disabled="" id="generate_lead"
+                             class="px-4 checkout-spt-btn btn btn-primary">Ver formas de
+                            pago</button></div>
+                </form>
+                <div></div>
+                <div class="mt-4 mb-4 d-block">
+                    <div class="box-form">
+                        <h2>Información importante</h2>
+                        <p class="checkout-rate-details-comments">Bahia Principe Grand Coba is an all-inclusive family
+                            hotel within a beachfront resort in Akumal. This property houses two pools, a children´s
+                            water park, jacuzzis, a fitness center, a children´s club, a spa with a variety of cosmetic
+                            treatments, and a variety of restaurants and bars, including four 24-hour snack bars. For
+                            recreation, the hotel offers water sports, land sports, a daily activities program, and
+                            night shows. The hotel also provides WiFi in all areas.
+
+                            The 1,080 suites at the hotel are distributed in 30 3-floor villas. Each accommodation is
+                            fitted with air conditioning, satellite TV, in-room safe, minibar restocked daily, and
+                            balcony or terrace overlooking the garden or the pool. The property has six pools and a
+                            shopping and entertainment center called Hacienda Doña Isabel, which also houses a bar, a
+                            nightclub, and stores, and offers daytime activities.
+
+                            The resort is 7 kilometers (4.3 mi) from Xel-Há Park and 21 kilometers (13 mi) from the
+                            Archaeological Site of Tulum. The famous Xcaret Park and Playa del Carmen are 36 and 43
+                            kilometers (22.4 and 26.7 mi) away, respectively. Cancún International Airport (CUN) is 99
+                            kilometers (61.5 mi) from the hotel.
+
+                            ***The local government has a mandatory tax of $1.50 USD per room, per night, payable
+                            directly to the hotel in Mexican pesos or with a credit or debit card.
+
+                            ***Resort guests can dine at the specialty restaurants 1 time for stays of 3 nights, 2 times
+                            for stays of 5 nights, and 3 times for stays of 7 nights. All dinners require a reservation
+                            in advance and formal dress code that include trousers for gentlemen. Before your trip,
+                            please check directly with the national government the entry and stay requirements of the
+                            country you are visiting. Keep in mind that it is the responsibility of the traveler to meet
+                            the rules and regulations established by the destination country.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 mt-4 checkout-summary-ticket col">
+                <div class="card-content">
+                    <div class="card-containers col">
+                        <div class="box-summary card">
+                            <div class="box-title">
+                                <div class="box-title-content">
+                                    <h5 class="box-title-content-title"><a
+                                            href="/es-mx/reserva">Bahia Principe Grand Coba All Inclusive</a></h5>
+                                </div>
+                                <div class="container-flex align-items-baseline box-service-descriptions"
+                                    style="flex-direction: initial;">
+                                    <div class="container-stars">
+                                        <div class="box-star"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                </path>
+                                            </svg></div>
+                                        <div class="box-star"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                </path>
+                                            </svg></div>
+                                        <div class="box-star"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                </path>
+                                            </svg></div>
+                                        <div class="box-star"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                </path>
+                                            </svg></div>
+                                        <div class="box-star"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0008 17L6.12295 20.5902L7.72105 13.8906L2.49023 9.40983L9.35577 8.85942L12.0008 2.5L14.6458 8.85942L21.5114 9.40983L16.2806 13.8906L17.8787 20.5902L12.0008 17Z">
+                                                </path>
+                                            </svg></div>
+                                    </div>
+                                    <div class="container-flex container-flex-address ms-1">
+                                        <p class="container-flex-text container-address">Benito
+                                            Juarez</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-summary-div">
+                                <div class="box-summary-item"><small >Llegada</small>
+                                    <p class="mb-1 fw-bold" style="text-transform: capitalize;">
+                                        21-jul-2024</p>
+                                </div>
+                                <div class="box-summary-item"><small>Salida</small>
+                                    <p class="mb-1 fw-bold" style="text-transform: capitalize;">
+                                        23-jul-2024</p>
+                                </div>
+                            </div>
+                            <div class="box-summary-div-hotel mt-3">
+                                <div class="box-summary-item">
+                                    <p>2 noches</p>
+                                </div>
+                                <div class="box-summary-item">
+                                    <p>2 adultos,
+                                        sin menores
+                                    </p>
+                                </div>
+                            </div>
+                            <h5>1 Habitacion</h5>
+                            <p style="text-transform: capitalize;">Junior Suite Superior</p>
+                            <p class="container-flex item-row item-align-center"><svg
+                                    stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M502.05 57.6C523.3 36.34 508.25 0 478.2 0H33.8C3.75 0-11.3 36.34 9.95 57.6L224 271.64V464h-56c-22.09 0-40 17.91-40 40 0 4.42 3.58 8 8 8h240c4.42 0 8-3.58 8-8 0-22.09-17.91-40-40-40h-56V271.64L502.05 57.6z">
+                                    </path>
+                                </svg><span class="ms-2">All Inclusive</span></p>
+                            <p class="container-flex item-row item-align-center">No
+                                puedes cancelar ni realizar cambios</p>
+                            <div class="box-summary-div border-summary-item" style="border-bottom: none;"></div>
+                            <div class="box-summary-div border-summary-item"></div>
+                            <div class="box-summary-div border-summary-item" style="border-bottom: none;">
+                                <div class="box-summary-item">
+                                    <p class="fw-bold mb-0">Total</p>
+                                </div>
+                                <div class="box-summary-item">
+                                    <p class="fw-bold mb-0">$7,320 MXN</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
