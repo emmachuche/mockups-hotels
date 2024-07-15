@@ -11,6 +11,11 @@
     width: 40%
 }
 
+.gallery-box-img {
+    height: 100%;
+    min-height: 200px;
+}
+
 .collage .container-duo {
     padding-left: 3.5px;
     width: 30%

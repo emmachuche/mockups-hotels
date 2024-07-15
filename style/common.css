@@ -137,3 +137,33 @@ html * ::-webkit-scrollbar-thumb {
 .p-tabview-nav-content::-webkit-scrollbar {
     display: none
 }
+
+
+.card-container-home {
+    padding: 0 0 69px;
+    width: 19rem
+}
+
+.skeleton-card {
+    width: 19rem
+}
+
+.skeleton-card .skeleton-card-img {
+    border-radius: 8px;
+    height: 150px;
+    width: 100%
+}
+
+.placeholder-glow .placeholder {
+    animation: placeholder-glow 2s ease-in-out infinite;
+}
+
+.placeholder {
+    background-color: currentcolor;
+    cursor: wait;
+    display: inline-block;
+    min-height: 1em;
+    opacity: .5;
+    vertical-align: middle;
+}
+
