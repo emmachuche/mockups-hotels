@@ -114,3 +114,20 @@
         color: #2c395e !important
     }
 }
+
+
+.search-box-service-activity.box-fixed,
+.search-box-service-hotel.box-fixed,
+.search-box-service-shutter.box-fixed,
+.search-box-service-tour.box-fixed,
+.search-box-service-transfer.box-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.search-box-service-activity, .search-box-service-hotel, .search-box-service-shutter, .search-box-service-tour, .search-box-service-transfer {
+    background-color: #f0f0f0 !important;
+}
