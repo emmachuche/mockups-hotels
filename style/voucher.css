@@ -1,0 +1,66 @@
+.container-voucher-information {
+    border-radius: 8px;
+    box-shadow: 0 0 6px -1px hsla(210, 2%, 78%, .565);
+}
+
+.title {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.section-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.box-title .box-title-content {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: auto;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box-title-content .container-stars {
+    display: flex;
+    flex-grow: 1;
+    color: #2c395e;
+}
+
+.box-title-content .container-stars .box-star {
+    color: #2c395e;
+}
+
+.detail-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detail-row .row-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.data-list-voucher {
+    margin-bottom: 5px;
+}
+
+.data-list-voucher strong {
+    margin-right: 9px;
+    font-size: 14px;
+}
+
+
+.content-voucher span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.content-voucher p {
+    margin-bottom: 5px;
+}
